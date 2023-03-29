@@ -66,4 +66,3 @@ void print_python_bytes(PyObject *p)
 
 	printf("  size: %ld\n", ((PyVarObject *)p)->ob_size);
 	printf("  trying string: %s\n", bytes->ob_sval);
-
